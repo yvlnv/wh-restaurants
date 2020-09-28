@@ -1,0 +1,30 @@
+@startuml
+class Restaurant {
+    + name: String
+    + image: String
+    + menus: Array<Menu>
+    + addMenu()
+    + deleteMenu()
+}
+class Menu{
+    + name: String
+    + items: Array<Item>
+    + addItem()
+    + deleteItem()
+}
+
+class Item {
+    + name: String
+    + price: Float
+    + ingredients: Array<Ingredient>
+    + addIngredient()
+}
+
+class Ingredient {
+    + name: String
+}
+note left of Menu: drinks menu\nmains menu\ndesert menu
+Restaurant--{Menu
+Menu--{ "many" Item
+Item--{ "many" Ingredient
+@enduml
