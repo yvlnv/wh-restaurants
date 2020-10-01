@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Zima",
+        "image": "https://media.timeout.com/images/105387051/image.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Wasabi",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D1BAQFygWCD7B9d2Q/company-background_10000/0?e=2159024400&v=beta&t=VsXT6qY325LmnBpFlDR-a6VfuGt3kAyQINHNdoknu8U"
+    },
+    {
+        "id": 3,
+        "name": "Nenno",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/84/78/ef/nenno-is-the-perfect.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Blue River",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/d9/f6/ae/20170703-114343-largejpg.jpg"
+    }
+]
